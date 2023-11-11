@@ -30,6 +30,8 @@ public class App
         Match matchE = matchLibrary.createMatch("Argentina", "Australia");
         matchLibrary.updateScore(matchE, 3, 1);
 
+        // matchLibrary.finishGame(matchD);
+
         for (Match match: matchLibrary.getSummary()) {
             System.out.println(match.getHomeTeam() + " " + match.getHomeScore()
                         + " - " +
